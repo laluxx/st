@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Maple Mono NF:pixelsize=25:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -95,33 +95,33 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
-
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#2a2931",
+	"#f27983",
+	"#a3e7bc",
+	"#fce1be",
+	"#8dc6f5",
+	"#b4a8e8",
+	"#a2e1eb",
+	"#ffffff",
+
+	/* 8 normal colors */
+	"#2a2931",
+	"#e84c58",
+	"#6dd797",
+	"#f5c791",
+	"#41b0f3",
+	"#9587DD",
+	"#6bd9db",
+	"#e6e6e8",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#bebec4", /* selection_foreground */
+	"#2B2638", /* selection_background */
+	"#e6e6e8", /* default foreground colour */
+	"#212026", /* default background colour */
 };
 
 
